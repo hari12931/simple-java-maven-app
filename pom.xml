@@ -26,8 +26,8 @@
 	    </configuration>
             <executions>
 	      <execution>
-	        <id>owasp-dependency-check</id>		    
-                <phase>compile</phase>
+	        <!--<id>owasp-dependency-check</id>		    
+                <phase>compile</phase> -->
                 <goals>
                   <goal>check</goal>
                 </goals>
