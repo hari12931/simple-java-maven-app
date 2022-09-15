@@ -22,12 +22,12 @@
                   <suppressionFile>suppressions.xml</suppressionFile>
 	  </suppressionFiles> -->
 	  <!--  <failBuildOnCVSS>5</failBuildOnCVSS> -->
-             <formats>ALL</formats>
+             <formats>HTML</formats>
 	    </configuration>
             <executions>
 	      <execution>
-	        <id>owasp-dependency-check</id>		    
-                <phase>compile</phase>
+	       <!-- <id>owasp-dependency-check</id>		    
+                <phase>compile</phase> -->
                 <goals>
                   <goal>check</goal>
                 </goals>
